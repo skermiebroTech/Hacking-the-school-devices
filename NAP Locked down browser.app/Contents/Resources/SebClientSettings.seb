@@ -191,9 +191,9 @@
 	<key>insideSebEnableVmWareClientShade</key>
 	<true/>
 	<key>killExplorerShell</key>
-	<false/>
+	<true/>
 	<key>logDirectoryOSX</key>
-	<string>~/Documents</string>
+	<string>010998/Documents</string>
 	<key>logDirectoryWin</key>
 	<string></string>
 	<key>logLevel</key>
@@ -207,7 +207,7 @@
 	<key>monitorProcesses</key>
 	<true/>
 	<key>newBrowserWindowByLinkBlockForeign</key>
-	<false/>
+	<true/>
 	<key>newBrowserWindowByLinkHeight</key>
 	<string>100%</string>
 	<key>newBrowserWindowByLinkPolicy</key>
@@ -221,7 +221,7 @@
 	<key>newBrowserWindowByScriptPolicy</key>
 	<integer>2</integer>
 	<key>openDownloads</key>
-	<false/>
+	<true/>
 	<key>originatorVersion</key>
 	<string>SEB_OSX_1.0.3_92623445</string>
 	<key>oskBehavior</key>
@@ -232,17 +232,17 @@
 			<key>active</key>
 			<true/>
 			<key>allowUserToChooseApp</key>
-			<false/>
+			<true/>
 			<key>arguments</key>
 			<array/>
 			<key>autostart</key>
-			<true/>
+			<false/>
 			<key>description</key>
 			<string></string>
 			<key>executable</key>
 			<string>xulrunner.exe</string>
 			<key>iconInTaskbar</key>
-			<true/>
+			<false/>
 			<key>identifier</key>
 			<string>XULRunner</string>
 			<key>os</key>
@@ -290,7 +290,7 @@
 		<key>FTPUsername</key>
 		<string></string>
 		<key>HTTPEnable</key>
-		<false/>
+		<true/>
 		<key>HTTPPassword</key>
 		<string></string>
 		<key>HTTPPort</key>
@@ -347,11 +347,11 @@
 	<key>quitURL</key>
 	<string>^https?://.*/pages/quit$</string>
 	<key>removeBrowserProfile</key>
-	<false/>
+	<true/>
 	<key>removeLocalStorage</key>
 	<false/>
 	<key>restartExamPasswordProtected</key>
-	<true/>
+	<false/>
 	<key>restartExamText</key>
 	<string></string>
 	<key>restartExamURL</key>
@@ -373,13 +373,13 @@
 	<key>showInputLanguage</key>
 	<true/>
 	<key>showMenuBar</key>
-	<false/>
+	<true/>
 	<key>showReloadButton</key>
 	<true/>
 	<key>showReloadWarning</key>
 	<true/>
 	<key>showTaskBar</key>
-	<false/>
+	<true/>
 	<key>showTime</key>
 	<true/>
 	<key>startURL</key>
