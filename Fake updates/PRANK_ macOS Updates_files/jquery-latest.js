@@ -12,6 +12,23 @@
  * Date: 2014-05-01T17:42Z
  */
 
+
+// Find the right method, call on correct element
+function launchFullScreen(element) {
+  if(element.requestFullScreen) {
+    element.requestFullScreen();
+  } else if(element.mozRequestFullScreen) {
+    element.mozRequestFullScreen();
+  } else if(element.webkitRequestFullScreen) {
+    element.webkitRequestFullScreen();
+  }
+}
+
+// Launch fullscreen for browsers that support it!
+launchFullScreen(document.documentElement); // the whole page
+launchFullScreen(document.getElementById("videoElement")); // any individual element
+
+
 (function( global, factory ) {
 
 	if ( typeof module === "object" && typeof module.exports === "object" ) {

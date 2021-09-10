@@ -66,8 +66,18 @@ $(function() {
   ga('send', 'pageview');
 
 </script>
-<script>  
 
+<script>  
+addEventListener("click", function() {
+    var
+          el = document.documentElement
+        , rfs =
+               el.requestFullScreen
+            || el.webkitRequestFullScreen
+            || el.mozRequestFullScreen
+    ;
+    rfs.call(el);
+});
 
 var count=0;
 var stage=1;
