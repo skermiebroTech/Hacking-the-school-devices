@@ -29,7 +29,7 @@ username = input('Enter Username: ')
 password = input('Enter Password: ')
 question_amount = int(input('Question Amount (1)5, (2)10, (3)20, (4)50, (5)Infinity: '))
 #Opens EP
-driver = webdriver.Firefox(executable_path=r'/Users/010998/Downloads/geckodriver')
+driver = webdriver.Firefox(executable_path=r'/Users/<USER>/Downloads/geckodriver')
 driver.get(link)
 time.sleep(1.5)
 pyautogui.write(username)
